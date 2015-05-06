@@ -1,0 +1,12 @@
+(package dawn-update
+  
+  (root "src")
+  (products (dawn-update (title "Dawn Update")
+                         (unit dawn-update.product)
+                         (run dawn-update.run)
+                         (build (dawn-update executable: "Dawn" bundle: "dawn" resources: "resources"))
+                         (update dawn-update.appl
+                                 dawn-update.product
+                                 dawn-update.run)
+                         (dependencies jiri)))
+  (project ".project"))

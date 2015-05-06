@@ -1,0 +1,43 @@
+(package jiri
+  
+  (root "src")
+  (products (jiri (title "Jiri")
+                  (unit jiri.product)
+                  (update jiri.appl
+                          jiri.base
+                          jiri.devel
+                          jiri.font
+                          jiri.git
+                          jiri.git-interface
+                          jiri.install
+                          jiri.launch
+                          jiri.pane
+                          jiri.platform
+                          jiri.product
+                          jiri.run
+                          jiri.settings
+                          jiri.setup
+                          jiri.structure
+                          jiri.uninstall
+                          jiri.update
+                          jiri.view
+                          jiri.window
+                          jiri.work)
+                  (dependencies jazz
+                                jazz.debuggee
+                                jazz.debuggee.jazz
+                                jazz.designer
+                                jazz.editor.jazz
+                                jazz.git
+                                jazz.graphic
+                                jazz.io
+                                jazz.jml
+                                jazz.jrm
+                                jazz.library
+                                jazz.network
+                                jazz.platform
+                                jazz.profile
+                                jazz.system
+                                jazz.ui
+                                srfi-19)))
+  (project ".project"))
