@@ -1,7 +1,0 @@
-(package dawn-jiri
-  
-  (root "src")
-  (products (dawn-jiri (title "Dawn Jiri")
-                       (update dawn-jiri.settings)
-                       (dependencies dawn-update)))
-  (project ".project"))

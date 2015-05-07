@@ -7,6 +7,7 @@
                          (build (dawn-update executable: "Dawn" bundle: "dawn" resources: "resources"))
                          (update dawn-update.appl
                                  dawn-update.product
-                                 dawn-update.run)
+                                 dawn-update.run
+                                 dawn-update.settings)
                          (dependencies jiri)))
   (project ".project"))
